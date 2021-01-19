@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List Appplication</string>
+<string-array name="iTems">
+    <item>Android</item>
+    <item>Iphone</item>
+    <item>Mac OS</item>
+</string-array>
+</resources>

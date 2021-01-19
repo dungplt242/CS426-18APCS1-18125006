@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLine"
+            android:text="Line"
+            android:onClick="onDrawShapeClicked"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRectangle"
+            android:text="Rect"
+            android:onClick="onDrawShapeClicked"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonEllipse"
+            android:text="Ellipse"
+            android:onClick="onDrawShapeClicked"/>
+    </LinearLayout>
+    <com.example.graphic.ColorPickerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/colorPicker"/>
+    <com.example.graphic.MyPaintView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/paintView"/>
+</LinearLayout>

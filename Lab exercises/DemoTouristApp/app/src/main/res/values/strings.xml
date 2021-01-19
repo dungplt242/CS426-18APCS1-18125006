@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoTouristApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicGx0ZHVuZyIsImEiOiJja2R5NnR5MTgyczJyMzRqempydnlvODRiIn0.ChfDopvoDem6ihNt5bykTQ</string>
+</resources>
